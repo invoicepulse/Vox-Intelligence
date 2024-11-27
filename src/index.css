@@ -1,0 +1,175 @@
+/* Import Inter font */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 222.2 84% 4.9%;
+    --card: 0 0% 100%;
+    --card-foreground: 222.2 84% 4.9%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 222.2 84% 4.9%;
+    --primary: 222.2 47.4% 11.2%;
+    --primary-foreground: 210 40% 98%;
+    --secondary: 210 40% 96.1%;
+    --secondary-foreground: 222.2 47.4% 11.2%;
+    --muted: 210 40% 96.1%;
+    --muted-foreground: 215.4 16.3% 46.9%;
+    --accent: 210 40% 96.1%;
+    --accent-foreground: 222.2 47.4% 11.2%;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+    --border: 214.3 31.8% 91.4%;
+    --input: 214.3 31.8% 91.4%;
+    --ring: 222.2 84% 4.9%;
+    --radius: 0.5rem;
+  }
+}
+
+/* Apply Inter font globally */
+body {
+  font-family: 'Inter', sans-serif;
+}
+
+/* Animated background gradients */
+.gradient-background {
+  background: linear-gradient(
+    315deg,
+    rgba(255, 218, 185, 0.8) 0%,    /* Peach */
+    rgba(173, 216, 230, 0.8) 25%,   /* Light Blue */
+    rgba(230, 230, 250, 0.8) 50%,   /* Lavender */
+    rgba(176, 224, 230, 0.8) 75%,   /* Powder Blue */
+    rgba(255, 182, 193, 0.8) 100%   /* Light Pink */
+  );
+  animation: gradient 15s ease infinite;
+  background-size: 400% 400%;
+  background-attachment: fixed;
+}
+
+.gradient-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  pointer-events: none;
+  background: radial-gradient(circle at var(--mouse-x, 50%) var(--mouse-y, 50%), 
+    rgba(255,255,255,0.15) 0%,
+    rgba(255,255,255,0.08) 20%,
+    transparent 40%
+  );
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 0%;
+  }
+  50% {
+    background-position: 100% 100%;
+  }
+  100% {
+    background-position: 0% 0%;
+  }
+}
+
+/* Radial gradient blobs */
+.gradient-blob {
+  position: absolute;
+  filter: blur(80px);
+  opacity: 0.5;
+  animation: blob-bounce 8s infinite ease;
+  border-radius: 50%;
+}
+
+.blob-1 {
+  width: 400px;
+  height: 400px;
+  background: radial-gradient(
+    circle at 50% 50%, 
+    #ffd5cd 0%,      /* Soft Coral */
+    #b4e4ff 50%,     /* Light Blue */
+    #e6fff2 100%     /* Mint Green */
+  );
+  left: -100px;
+  top: 20%;
+}
+
+.blob-2 {
+  width: 350px;
+  height: 350px;
+  background: radial-gradient(
+    circle at 50% 50%, 
+    #e6f3ff 0%,      /* Light Blue */
+    #ffebcd 50%,     /* Pale Orange */
+    #fff0f5 100%     /* Lavender Blush */
+  );
+  right: -50px;
+  bottom: 20%;
+  animation-delay: -2s;
+}
+
+.blob-3 {
+  width: 300px;
+  height: 300px;
+  background: radial-gradient(
+    circle at 50% 50%, 
+    #ffefd5 0%,      /* Papaya Whip */
+    #e0ffff 50%,     /* Light Cyan */
+    #f0fff0 100%     /* Honeydew */
+  );
+  left: 30%;
+  top: 50%;
+  animation-delay: -4s;
+}
+
+.blob-4 {
+  width: 250px;
+  height: 250px;
+  background: radial-gradient(
+    circle at 50% 50%, 
+    #ffe4e1 0%,      /* Misty Rose */
+    #f0e6ff 50%,     /* Light Periwinkle */
+    #e6ffe6 100%     /* Light Mint */
+  );
+  right: 25%;
+  top: 15%;
+  animation-delay: -6s;
+}
+
+@keyframes blob-bounce {
+  0%, 100% {
+    transform: translate(0, 0) scale(1);
+  }
+  25% {
+    transform: translate(20px, -30px) scale(1.1);
+  }
+  50% {
+    transform: translate(-20px, 20px) scale(0.9);
+  }
+  75% {
+    transform: translate(30px, 30px) scale(1.05);
+  }
+}
+
+/* Glass morphism effect */
+.glass-effect {
+  background: linear-gradient(
+    135deg,
+    rgba(255, 255, 255, 0.2),
+    rgba(255, 255, 255, 0.1)
+  );
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+.glass-effect:hover {
+  background: linear-gradient(
+    135deg,
+    rgba(255, 255, 255, 0.25),
+    rgba(255, 255, 255, 0.15)
+  );
+}
