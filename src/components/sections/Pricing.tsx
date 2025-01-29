@@ -27,7 +27,7 @@ export function PricingSection() {
               <CardTitle>Pay as you go</CardTitle>
             </CardHeader>
             <CardContent>
-              <div className="text-4xl font-bold mb-4">$0.35<span className="text-lg font-normal">/minute</span></div>
+              <div className="text-4xl font-bold mb-4">$0.19<span className="text-lg font-normal">/minute</span></div>
               <ul className="space-y-2 mb-6">
                 <li className="flex items-center">
                   <svg
@@ -88,7 +88,7 @@ export function PricingSection() {
               <CardTitle>Premium</CardTitle>
             </CardHeader>
             <CardContent>
-              <div className="text-4xl font-bold mb-4">$129<span className="text-lg font-normal">/month</span></div>
+              <div className="text-4xl font-bold mb-4">$119<span className="text-lg font-normal">/month</span></div>
               <ul className="space-y-2 mb-6">
                 <li className="flex items-center">
                   <svg

@@ -6,7 +6,6 @@ import { TrainingSection } from '../components/sections/Training';
 import { UseCasesSection } from '../components/sections/UseCases';
 import { BackedBySection } from '../components/sections/BackedBy';
 import { PricingSection } from '../components/sections/Pricing';
-import { StartupProgramSection } from '../components/sections/StartupProgram';
 import { FAQSection } from '../components/sections/FAQ';
 import { SignInButton } from '@clerk/clerk-react';
 import { ArrowRight } from 'lucide-react';
@@ -45,9 +44,7 @@ export default function Home() {
       <BenefitsSection />
       <TrainingSection />
       <UseCasesSection />
-      <BackedBySection />
       <PricingSection />
-      <StartupProgramSection />
       <FAQSection />
     </>
   );

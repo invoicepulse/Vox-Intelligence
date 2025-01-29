@@ -39,7 +39,7 @@ export function UseCasesSection() {
             Explore Our Use Cases
           </h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            Discover how Vox Intelligence can transform your business communication
+            Discover how Vocyth can transform your business communication
           </p>
         </div>
 

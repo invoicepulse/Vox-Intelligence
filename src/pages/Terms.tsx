@@ -5,20 +5,20 @@ export default function Terms() {
     <div className="min-h-screen pt-32 pb-16">
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
         <article className="prose prose-purple max-w-none">
-          <h1 className="text-4xl font-bold tracking-tight sm:text-5xl mb-8">Vox Intelligence Terms of Service</h1>
+          <h1 className="text-4xl font-bold tracking-tight sm:text-5xl mb-8">Vocyth Terms of Service</h1>
           <p className="text-muted-foreground mb-8">Last Updated: November 2024</p>
 
           <section className="mb-12">
             <h2 className="text-2xl font-bold mb-4">1. Acceptance of Terms</h2>
             <p className="text-muted-foreground">
-              By accessing or using Vox Intelligence services, you agree to these Terms of Service. If you do not agree, do not use our platform.
+              By accessing or using Vocyth services, you agree to these Terms of Service. If you do not agree, do not use our platform.
             </p>
           </section>
 
           <section className="mb-12">
             <h2 className="text-2xl font-bold mb-4">2. Service Description</h2>
             <p className="text-muted-foreground">
-              Vox Intelligence provides AI-powered voice agent solutions for businesses, enabling real-time conversational interactions.
+              Vocyth provides AI-powered voice agent solutions for businesses, enabling real-time conversational interactions.
             </p>
           </section>
 
@@ -67,7 +67,7 @@ export default function Terms() {
 
             <h3 className="text-xl font-semibold mb-3">5.1 Ownership</h3>
             <ul className="list-disc pl-6 text-muted-foreground mb-6">
-              <li>Vox Intelligence retains all intellectual property rights</li>
+              <li>Vocyth retains all intellectual property rights</li>
               <li>Users receive a limited, non-exclusive license</li>
             </ul>
 
@@ -178,7 +178,7 @@ export default function Terms() {
             <h2 className="text-2xl font-bold mb-4">13. Contact Information</h2>
             <p className="text-muted-foreground mb-4">For questions about these terms:</p>
             <ul className="list-none text-muted-foreground">
-              <li>Email: <a href="mailto:help@voxintelligence.online" className="text-purple-600 hover:text-purple-700">help@voxintelligence.online</a></li>
+              <li>Email: <a href="mailto:help@vocyth.com" className="text-purple-600 hover:text-purple-700">help@vocyth.com</a></li>
             </ul>
           </section>
 

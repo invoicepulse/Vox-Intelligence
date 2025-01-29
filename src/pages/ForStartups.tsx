@@ -11,7 +11,7 @@ export default function ForStartups() {
               <span className="bg-clip-text text-transparent bg-gradient-to-r from-purple-600 to-purple-400">
                 Best Deals
               </span>{' '}<br className="sm:hidden"/>
-              For Your Startup<br /> with Vox Intelligence
+              For Your Startup<br /> with Vocyth
             </h1>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
               We are offering our startup customers{' '}

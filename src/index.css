@@ -45,23 +45,9 @@ body {
     rgba(176, 224, 230, 0.8) 75%,   /* Powder Blue */
     rgba(255, 182, 193, 0.8) 100%   /* Light Pink */
   );
-  animation: gradient 15s ease infinite;
+  /* animation: gradient 15s ease infinite; */
   background-size: 400% 400%;
   background-attachment: fixed;
-}
-
-.gradient-overlay {
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  pointer-events: none;
-  background: radial-gradient(circle at var(--mouse-x, 50%) var(--mouse-y, 50%), 
-    rgba(255,255,255,0.15) 0%,
-    rgba(255,255,255,0.08) 20%,
-    transparent 40%
-  );
 }
 
 @keyframes gradient {
@@ -81,7 +67,7 @@ body {
   position: absolute;
   filter: blur(80px);
   opacity: 0.5;
-  animation: blob-bounce 8s infinite ease;
+  /* animation: blob-bounce 8s infinite ease; */
   border-radius: 50%;
 }
 
@@ -103,13 +89,12 @@ body {
   height: 350px;
   background: radial-gradient(
     circle at 50% 50%, 
-    #e6f3ff 0%,      /* Light Blue */
-    #ffebcd 50%,     /* Pale Orange */
-    #fff0f5 100%     /* Lavender Blush */
+    #ffb6c1 0%,      /* Light Pink */
+    #87ceeb 50%,     /* Sky Blue */
+    #98fb98 100%     /* Pale Green */
   );
-  right: -50px;
+  right: -100px;
   bottom: 20%;
-  animation-delay: -2s;
 }
 
 .blob-3 {
@@ -123,7 +108,7 @@ body {
   );
   left: 30%;
   top: 50%;
-  animation-delay: -4s;
+  /* animation-delay: -4s; */
 }
 
 .blob-4 {
@@ -137,7 +122,7 @@ body {
   );
   right: 25%;
   top: 15%;
-  animation-delay: -6s;
+  /* animation-delay: -6s; */
 }
 
 @keyframes blob-bounce {

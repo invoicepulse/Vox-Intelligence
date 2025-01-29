@@ -7,32 +7,24 @@ export default function Footer() {
         <div className="grid grid-cols-2 md:grid-cols-3 gap-8">
           <div>
             <h3 className="text-lg font-semibold mb-4">
-              <img
-                src="https://res.cloudinary.com/dvgtcyyzh/image/upload/v1732707944/Voiceflows__5_-removebg-preview_kwyo4t.png"
-                alt="Vox Intelligence"
-                className="h-12 w-auto"
-              />
+              <span className="font-bold text-2xl font-['Audiowide'] tracking-wider">Vocyth</span>
             </h3>
             <p className="text-sm text-muted-foreground">
               AI-powered voice chat solutions for your business. In partnership
-              with Synthflow. This is a bootstrapped startup. Contact us at
-              help@voxintelligence.online
+              with Synthflow. Contact us at help@vocyth.com
             </p>
           </div>
           <div>
             <h3 className="text-lg font-semibold mb-4">Quick Links</h3>
             <ul className="space-y-2 text-sm text-muted-foreground">
               <li>
-                <Link to="/features">Features</Link>
+                <a href="/features">Features</a>
               </li>
               <li>
-                <Link to="/usecases">Use Cases</Link>
+                <a href="/usecases">Use Cases</a>
               </li>
               <li>
-                <Link to="/for-startups">For Startups</Link>
-              </li>
-              <li>
-                <a href="mailto:affiliates@voxintelligence.online">Affiliates</a>
+                <a href="mailto:affiliates@vocyth.online">Affiliates</a>
               </li>
             </ul>
           </div>
@@ -50,7 +42,7 @@ export default function Footer() {
         </div>
         <div className="mt-8 pt-8 border-t border-border">
           <p className="text-center text-sm text-muted-foreground">
-            &copy; {new Date().getFullYear()} Vox Intelligence. All rights reserved.
+            &copy; {new Date().getFullYear()} Vocyth. All rights reserved.
           </p>
         </div>
       </div>

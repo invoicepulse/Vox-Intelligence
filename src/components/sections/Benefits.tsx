@@ -32,7 +32,7 @@ export function BenefitsSection() {
           <div className="inline-block rounded-full bg-purple-100 px-4 py-1.5 mb-5">
             <span className="text-sm font-medium leading-none text-gray-900">Benefits</span>
           </div>
-          <h2 className="text-4xl font-bold tracking-tight sm:text-5xl mb-4">Why Choose Vox Intelligence?</h2>
+          <h2 className="text-4xl font-bold tracking-tight sm:text-5xl mb-4">Why Choose Vocyth?</h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
             Experience the advantages of integrating AI voice agents into your business
           </p>

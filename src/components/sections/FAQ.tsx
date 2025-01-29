@@ -9,7 +9,7 @@ interface FAQItem {
 
 const faqs: FAQItem[] = [
   {
-    question: "How does Vox Intelligence AI voice agent work?",
+    question: "How does Vocyth AI voice agent work?",
     answer: "Our AI voice agents use advanced natural language processing and machine learning to understand and respond to customer queries in real-time. They can handle multiple conversations simultaneously, understand context, and provide human-like interactions while maintaining consistency in responses."
   },
   {
@@ -17,16 +17,16 @@ const faqs: FAQItem[] = [
     answer: "Yes! You can customize various aspects of your AI voice agent, including voice tone, language style, personality traits, and response patterns. This ensures the agent aligns perfectly with your brand identity and communication style."
   },
   {
-    question: "What languages are supported by Vox Intelligence?",
-    answer: "Vox Intelligence supports multiple languages and can handle multilingual conversations. Our AI agents can seamlessly switch between languages during conversations, making them perfect for businesses with a global customer base."
+    question: "What languages are supported by Vocyth?",
+    answer: "Vocyth supports multiple languages and can handle multilingual conversations. Our AI agents can seamlessly switch between languages during conversations, making them perfect for businesses with a global customer base."
   },
   {
     question: "How does pricing work for voice minutes?",
     answer: "Voice minutes are calculated based on the actual conversation time between the AI agent and your customers. We offer a pay-as-you-go model at $0.35/minute and a Premium plan with better rates for higher volumes. Unused minutes in the Premium plan roll over to the next month."
   },
   {
-    question: "Can I integrate Vox Intelligence with my existing systems?",
-    answer: "Absolutely! Vox Intelligence provides APIs and integrations for popular platforms including CRM systems, e-commerce platforms, and customer service tools. Our team can help you set up custom integrations for your specific needs."
+    question: "Can I integrate Vocyth with my existing systems?",
+    answer: "Absolutely! Vocyth provides APIs and integrations for popular platforms including CRM systems, e-commerce platforms, and customer service tools. Our team can help you set up custom integrations for your specific needs."
   },
   {
     question: "How accurate is the voice recognition and response system?",
@@ -75,7 +75,7 @@ export function FAQSection() {
           </div>
           <h2 className="text-4xl font-bold tracking-tight sm:text-5xl mb-4">Frequently Asked Questions</h2>
           <p className="text-xl text-muted-foreground">
-            Find answers to common questions about Vox Intelligence
+            Find answers to common questions about Vocyth
           </p>
         </div>
 
@@ -87,8 +87,8 @@ export function FAQSection() {
           <div className="text-center mt-8 pt-6 border-t border-gray-200">
             <p className="text-muted-foreground">
               Have more questions? Reach out to{' '}
-              <a href="mailto:help@voxintelligence.online" className="text-purple-600 hover:text-purple-700 font-medium">
-                help@voxintelligence.online
+              <a href="mailto:help@vocyth.com" className="text-purple-600 hover:text-purple-700 font-medium">
+                help@vocyth.com
               </a>
             </p>
           </div>

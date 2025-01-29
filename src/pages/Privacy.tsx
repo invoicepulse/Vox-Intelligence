@@ -5,13 +5,13 @@ export default function Privacy() {
     <div className="min-h-screen pt-32 pb-16">
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
         <article className="prose prose-purple max-w-none">
-          <h1 className="text-4xl font-bold tracking-tight sm:text-5xl mb-8">Vox Intelligence Privacy Policy</h1>
+          <h1 className="text-4xl font-bold tracking-tight sm:text-5xl mb-8">Vocyth Privacy Policy</h1>
           <p className="text-muted-foreground mb-8">Last Updated: November 2024</p>
 
           <section className="mb-12">
             <h2 className="text-2xl font-bold mb-4">1. Introduction</h2>
             <p className="text-muted-foreground">
-              Vox Intelligence ("we," "us," or "our") is committed to protecting your privacy. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use our AI voice agent services.
+              Vocyth ("we," "us," or "our") is committed to protecting your privacy. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use our AI voice agent services.
             </p>
           </section>
 
@@ -134,14 +134,14 @@ export default function Privacy() {
             <h2 className="text-2xl font-bold mb-4">12. Contact Information</h2>
             <p className="text-muted-foreground mb-4">For privacy-related inquiries, contact:</p>
             <ul className="list-none text-muted-foreground">
-              <li>Email: <a href="mailto:help@voxintelligence.online" className="text-purple-600 hover:text-purple-700">help@voxintelligence.online</a></li>
+              <li>Email: <a href="mailto:help@vocyth.com" className="text-purple-600 hover:text-purple-700">help@vocyth.com</a></li>
             </ul>
           </section>
 
           <section className="mb-12">
             <h2 className="text-2xl font-bold mb-4">13. Consent</h2>
             <p className="text-muted-foreground">
-              By using Vox Intelligence services, you consent to this Privacy Policy.
+              By using Vocyth services, you consent to this Privacy Policy.
             </p>
           </section>
         </article>

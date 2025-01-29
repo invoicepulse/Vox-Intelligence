@@ -6,7 +6,7 @@ export function StartupProgramSection() {
   const eligibilityCriteria = [
     'Less than 10 employees',
     'Received less than $1 Million in funding',
-    'Have not used Vox Intelligence before'
+    'Have not used Vocyth before'
   ];
 
   const benefits = [
