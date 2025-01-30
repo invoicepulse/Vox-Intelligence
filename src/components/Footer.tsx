@@ -7,7 +7,7 @@ export default function Footer() {
         <div className="grid grid-cols-2 md:grid-cols-3 gap-8">
           <div>
             <h3 className="text-lg font-semibold mb-4">
-              <span className="font-bold text-2xl font-['Audiowide'] tracking-wider">Vocyth</span>
+              <span className="font-bold text-2xl tracking-wider">Vocyth</span>
             </h3>
             <p className="text-sm text-muted-foreground">
               AI-powered voice chat solutions for your business. In partnership

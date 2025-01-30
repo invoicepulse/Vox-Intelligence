@@ -2,6 +2,7 @@ import { Outlet } from 'react-router-dom';
 import Navbar from './Navbar';
 import Footer from './Footer';
 import { SpotlightEffect } from './ui/SpotlightEffect';
+import { Analytics } from "@vercel/analytics/react";
 
 export default function Layout() {
   return (
