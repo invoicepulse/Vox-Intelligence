@@ -24,7 +24,7 @@ export default function Footer() {
                 <a href="/usecases">Use Cases</a>
               </li>
               <li>
-                <a href="mailto:affiliates@vocyth.online">Affiliates</a>
+                <a href="mailto:affiliates@vocyth.com">Affiliates</a>
               </li>
             </ul>
           </div>

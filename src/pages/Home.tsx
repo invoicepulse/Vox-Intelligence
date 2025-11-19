@@ -20,6 +20,22 @@ export default function Home() {
       <main className="pt-32 pb-16 sm:pt-40 sm:pb-24">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="text-center">
+            <div className="flex justify-center mb-6">
+              <a
+                href="https://elevenlabs.io/text-to-speech"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <p className="text-sm font-semibold text-muted-foreground mb-2 text-center">
+                  Powered by
+                </p>
+                <img
+                  src="https://storage.googleapis.com/eleven-public-cdn/images/elevenlabs-grants-logo.png"
+                  alt="Text to Speech"
+                  style={{ width: "250px" }}
+                />
+              </a>
+            </div>
             <h1 className="text-4xl font-extrabold tracking-tight text-primary sm:text-6xl">
               Deploy Real-Time AI Voice Chat Agent on Your{" "}
               <span className="text-primary-500 inline-block min-w-[280px] bg-clip-text text-transparent bg-gradient-to-r from-purple-600 to-purple-400 font-black">
